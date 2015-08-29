@@ -1,0 +1,15 @@
+<div ng-repeat="s in salteri">
+    <div class="col-md-4" id="salter{{$index+1}}">
+        <!-- salter 3 -->
+        <div class="row">
+            <h3>{{s.ime}}</h3>
+        </div>
+        <p>Trenutni broj: {{s.trenutni}}</p>
+
+        <p>Čeka: {{s.ceka}}</p>
+
+        <p>Pomoćni red</p>
+
+        <p>{{s.pomocni}}</p>
+    </div>
+</div>

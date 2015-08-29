@@ -1,0 +1,93 @@
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../img/pozadina.jpg");
+    position: relative;
+    margin: 0px;
+    padding-bottom: 0px;
+    min-height: 80%;
+    padding-top: 0px;
+    height: 80%;
+
+}
+
+.main {
+    background-color: #ffffff;
+    min-height: 100%;
+    -webkit-box-shadow: 0px 0px 25px 25px rgba(226, 243, 254, 0.85);
+    -moz-box-shadow: 0px 0px 25px 25px rgba(226, 243, 254, 0.85);
+    box-shadow: 0px 0px 25px 25px rgba(226, 243, 254, 0.85);
+}
+
+div {
+    text-align: center;
+    float: none;
+}
+
+input {
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 1px 5px rgba(1, 74, 124, 1);
+    -moz-box-shadow: 0px 0px 1px 5px rgba(1, 74, 124, 1);
+    box-shadow: 0px 0px 1px 5px rgba(1, 74, 124, 1);
+}
+
+select {
+    text-align: center;
+
+}
+
+#salter1 .row {
+    background-color: #13acc2;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#salter2 .row {
+    background-color: #ef9b5e;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#salter3 .row {
+    background-color: #e87c72;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #014a7c;
+    border-color: #014a7c;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #13acc2;
+    color: #ffffff;
+}
+
+p, a {
+    font-size: 18px;
+}
+
+.text-info {
+    font-size: 24pt;
+    text-align: right;
+}
+
+

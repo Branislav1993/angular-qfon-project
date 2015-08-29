@@ -1,0 +1,19 @@
+<div ng-repeat="i in iterator">
+    <div class="row" style="margin-bottom: 10px">
+        <span class="lead text-info text-right col-md-1">{{i}}</span>
+
+        <div class="container-fluid col-md-11 pull-right">
+            <button class="btn btn-primary btn-lg pull-left" ng-click="izbaci(i)">Izbaci</button>
+
+            <span class="lead"> Na redu: </span>
+            <button class="btn btn-info btn-lg" id="a{{i}}">{{a.tekuciBroj}}</button>
+            <span class="lead">Stanje:  </span>
+            <button class="btn btn-info btn-lg" id="b{{i}}">{{a.brojLjudi}}</button>
+
+            <div class="btn-group pull-right">
+                <button class="btn btn-success btn-lg" ng-click="otvori(i)">Otvori</button>
+                <button class="btn btn-danger btn-lg" ng-click="zatvori(i)">Zatvori</button>
+            </div>
+        </div>
+    </div>
+</div>
